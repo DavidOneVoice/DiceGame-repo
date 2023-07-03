@@ -1,0 +1,9 @@
+.DiceGame{
+    background-color: chartreuse;
+    border: 3px solid blueviolet;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}

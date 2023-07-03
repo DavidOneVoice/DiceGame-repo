@@ -1,0 +1,30 @@
+.DieRoll{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.DieRoll .p1, .p2{
+    border: 1px solid black;
+    width: 45%;
+    background-color: black;
+    margin-right: 20px;
+    border: 3px solid brown;
+    border-radius: 15px;
+    color: white;
+}
+.DieRoll button{
+    cursor: pointer;
+    background-color: chartreuse;
+    color: black;
+    border: 2px solid brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+.DieRoll button:hover{
+    font-size: 15px;
+    transition: all;
+    transition-duration: 0.3s;
+}
